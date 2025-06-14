@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Page1 = () => {
   return (
-    <div className='h-screen  px-10 py-8 bg-white '> 
+    <div className='h-screen  p-5 bg-white '> 
 
       <div className='  shadow-2xl shadow-gray-500 h-full w-full bg-black rounded-[20px] bg-[url(src/assets/images/bweye.jpeg)] bg-cover bg-right '> 
       {/* og bg page which contain image */}
