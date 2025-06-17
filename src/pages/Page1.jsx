@@ -33,7 +33,7 @@ export const Page1 = () => {
       }} className='h-screen flex p-5 bg-amber-200 '> 
 
 
-      <div id='bgdiv' className='  shadow-2xl shadow-gray-500 h-full w-full bg-black rounded-[20px] bg-[url(src/assets/images/dan_dan_dan.jpg)] bg-cover bg-right '> 
+      <div id='bgdiv' className='  shadow-2xl shadow-gray-500 h-full w-full bg-black rounded-[20px] bg-[url(/Dan_dan_dan.jpg)] bg-cover bg-right '> 
         {/* og bg page which contain image */}
 
           {/* <img className='absolute z-10 h-32 w-40 ' src="src/assets/images/logo-removebg-preview.png" alt="" />
