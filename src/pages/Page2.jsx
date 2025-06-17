@@ -16,7 +16,7 @@ const Page2 = () => {
       scrollTrigger:{
       trigger: '.rotateText',
       //  markers: true,
-       start: 'top 50%',
+       start: 'top 60%',
        end: 'top -100%',
       scrub: 1
       }
