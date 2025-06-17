@@ -30,10 +30,10 @@ export const Page1 = () => {
     <div onMouseMove={(e)=>{
         mouseMoving(e)
       
-      }} className='h-screen flex p-5 bg-amber-200 '> 
+      }} className='h-screen flex p-5 bg-amber-300 '> 
 
 
-      <div id='bgdiv' className='  shadow-2xl shadow-gray-500 h-full w-full bg-black rounded-[20px] bg-[url(src/assets/images/dan_dan_dan.jpg)] bg-cover bg-right '> 
+      <div id='bgdiv' className='  shadow-xl shadow-amber-100 h-full w-full bg-black rounded-[20px] bg-[url(public/krishna.jpg)] bg-cover bg-right '> 
         {/* og bg page which contain image */}
 
           {/* <img className='absolute z-10 h-32 w-40 ' src="src/assets/images/logo-removebg-preview.png" alt="" />
@@ -41,7 +41,7 @@ export const Page1 = () => {
 
         
         <div className='h-full w-full bg-black rounded-[20px] mask-r-to-100% '> 
-          {/* mask for image */}tiltref.current.style.transform = `rotateX(${yvalue}deg) rotateY(${xvalue}deg)`
+          {/* mask for image */}tiltref.current.style.transform = `rotateX(${yvalue}deg) rotateY(${xvalue}deg)`http://localhost:5176/
         </div>
 
         <div id='tiltdiv' ref={tiltref} className=' rounded-4xl absolute z-10  text-white top-60 left-20  '>
