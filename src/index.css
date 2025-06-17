@@ -1,6 +1,29 @@
 @import "tailwindcss";
 
 
+@font-face {
+  font-family: 'anzo1';
+  src: url(./assets/file1.woff2);
+}
+@font-face {
+  font-family: 'anzo2';
+  src: url(./assets/file2.woff2);
+}
 
+@font-face {
+  font-family: 'anzo3';
+  src: url(./assets/file3.woff2);
+}
+@font-face {
+  font-family: 'anzo4';
+  src: url(./assets/madefor-text.var.original.woff2);
+}
 
+#section2{
+  position: relative;
+  perspective: 2700px;
+}
 
+/* .rotateText{
+  transform-origin: 100% 70%;
+} */
