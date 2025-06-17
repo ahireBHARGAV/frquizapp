@@ -30,10 +30,10 @@ export const Page1 = () => {
     <div onMouseMove={(e)=>{
         mouseMoving(e)
       
-      }} className='h-screen flex p-5 bg-amber-300 '> 
+      }} className='h-screen flex p-5 bg-gradient-to-r from-blue-800 to-amber-300 items-center justify-center'> 
 
 
-      <div id='bgdiv' className='  shadow-xl shadow-amber-100 h-full w-full bg-black rounded-[20px] bg-[url(public/krishna.jpg)] bg-cover bg-right '> 
+      <div id='bgdiv' className='   h-full w-full bg-black rounded-[20px] bg-[url(/jg.jpg)] bg-cover bg-right '> 
         {/* og bg page which contain image */}
 
           {/* <img className='absolute z-10 h-32 w-40 ' src="src/assets/images/logo-removebg-preview.png" alt="" />
@@ -45,11 +45,11 @@ export const Page1 = () => {
         </div>
 
         <div id='tiltdiv' ref={tiltref} className=' rounded-4xl absolute z-10  text-white top-60 left-20  '>
-          <h1 className="text-6xl font-mono font-bold leading-9">WE <span className="text-red-700">BLEED</span></h1>
+          <h1 className="text-6xl font-mono font-bold leading-9">WE <span className="text-amber-400">BLEED</span></h1>
           <h1 className='text-6xl font-mono font-bold leading-9"'> WE BREAK</h1>
           <h2 className="text-6xl font-mono font-bold leading-9">BUT WE SHALL,</h2>
           <h2 className='text-6xl font-mono font-bold leading-15'>NEVER FALL.</h2>
-          <h2 className="text-3xl font-sans font-bold leading-5"><span className="text-red-700">TOGETHER</span> WE WILL RISE!</h2>
+          <h2 className="text-3xl font-sans font-bold leading-5"><span className="text-blue-700">TOGETHER</span> WE WILL RISE!</h2>
         </div>
       </div>
 
