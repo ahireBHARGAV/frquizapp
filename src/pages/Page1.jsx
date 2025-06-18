@@ -15,12 +15,12 @@ export const Page1 = () => {
 
   const mouseMoving = (e) => {
 
-    xvalue = (e.clientX - tiltref.current.getBoundingClientRect().x - tiltref.current.getBoundingClientRect().width/2)/30;
+    xvalue = (e.clientX - tiltref.current.getBoundingClientRect().x - tiltref.current.getBoundingClientRect().width/2)/20;
     yvalue = -((e.clientY - tiltref.current.getBoundingClientRect().y - tiltref.current.getBoundingClientRect().height/2)/10);
     gsap.to(tiltref.current, {
       transform: `rotateX(${yvalue}deg) rotateY(${xvalue}deg)`,
       duration: 1,
-      ease: "power3.out",
+      ease: "power2.out"
     });
   }
 
