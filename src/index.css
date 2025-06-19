@@ -19,6 +19,10 @@
   src: url(./assets/madefor-text.var.original.woff2);
 }
 
+#bgdiv{
+  perspective: 1000px;
+}
+
 #section2{
   position: relative;
   perspective: 2500px;
