@@ -24,7 +24,7 @@ const Page2 = () => {
 
   })
   return (
-    <div id='section2'className='text-center text-black bg-white pt-5 p-28'>
+    <div id='section2'className='text-center text-black bg-gradient-to-r from-blue-800 to-amber-300 pt-5 p-28'>
       <h3 className='text-center text-grey-500 text-xl font-[anzo4]'>@ manatramuse.studio 2025 | design and create</h3>
       <div className='rotateText  mt-5'>
         <h1 className='text-[38vw] overflow-hidden font-[anzo2]  text-black uppercase leading-[33vw]'>Creativity</h1>
@@ -35,6 +35,8 @@ const Page2 = () => {
       <div className='rotateText '>
         <h1 className='text-[38vw] font-[anzo2] overflow-hidden text-black uppercase leading-[33vw]'>courage!</h1>
       </div>
+
+      <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 bg-black mt-20'></div>
     </div>
   );
 };
